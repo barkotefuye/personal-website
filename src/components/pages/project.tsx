@@ -4,6 +4,7 @@ import NaturalDisasterPic from '../../assets/images/natural-disaster-tweets-pic.
 import PersonalWebsitePic from '../../assets/images/personal-website-pic.png'
 import KittenPic from '../../assets/images/kitten-pic.png'
 import HeroPic from '../../assets/images/hero-pic-short-5.png'
+import iTradePic from '../../assets/images/itrade-pic.png'
 import ProjectSection from '../sub-components/project-section'
 
 function Project() {
@@ -15,7 +16,7 @@ function Project() {
             <h1 className='font-mono font-bold p-10'> <span className='subtitle-inner-text'>featured</span>.Projects()</h1>
             <div className = "grid grid-cols-3">
               <ProjectSection companyImage = {NileExpressPic} 
-                summary = "Nile Express Dispatching - Contractor"
+                summary = "Nile Express Dispatching (Contract)"
                 description = "This was a project for truck dispatching company" />
               <ProjectSection companyImage = {NaturalDisasterPic}  
                 summary = "Natural Disaster Prediction with Twitter Data"
@@ -24,11 +25,11 @@ function Project() {
                 summary = "Service Now Query Detection"
                 description = "Created static analyzer to detect inefficent queries" />
               <ProjectSection companyImage = {PersonalWebsitePic}  
-                summary = "V1 Personal Website"
-                description = "I wrote my personal website with react and tailwind css, come check it out!" />
-              <ProjectSection companyImage = {KittenPic}  
-                summary = "Medium Blog"
-                description = "Writing blogs at the moment, should be able to see them soon!" />
+                summary = "Personal Website"
+                description = "I wrote personal website with react and tailwind css, you can see code here" />
+              <ProjectSection companyImage = {iTradePic}  
+                summary = "iTrade Mobile App"
+                description = "Currently building out a mobile fintech analytics app. You can see my progress here" />
               <ProjectSection companyImage = {HeroPic}  
                 summary = "Youtube - Tutorials"
                 description = "Not publicly avaliable yet" />

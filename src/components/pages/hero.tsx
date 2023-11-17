@@ -9,7 +9,7 @@ function Hero() {
             <h1 className='font-mono'> &lt;Barkot Efuye/&gt;</h1>
             <div className='font-mono typewriter'> &lt;div&gt; I build solutions for companies &lt;/div&gt; </div>
           </div>
-          <a href = "https://calendly.com/defuye/30min"><button className='font-sans font-semibold'> Let's Meet! </button></a>
+          <a href = "mailto:barkotefuye@gmail.com"><button className='font-sans font-semibold'> Let's Meet! </button></a>
         </div>
         <div> 
             <img src = {Image} className = " w-4/5 rounded-full drop-shadow-2xl" /> 
